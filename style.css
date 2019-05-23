@@ -1,0 +1,116 @@
+html {
+  min-height: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*border-style: solid;
+  border-width: 5px;*/
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom, #e7f5f3 0%, rgb(123, 202, 224) 100%);
+
+  }
+  
+  .name {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  }
+  .subtitle{
+    text-align: center;
+  }
+  
+  
+  
+  .profile-picture {
+    border-radius: 50%;
+    position: relative;
+    left: 43.5%;
+    top: 10px;
+  }
+
+ 
+table, td {
+  border: 1px solid rgba(0, 0, 0, 0.493);
+  color:rgb(28, 148, 64);
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {background-color: #9dd2d6fd;}
+
+
+hr{
+  border-color: rgb(88, 201, 163);
+}
+
+
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+  }
+  
+.animation1,.animation2,.animation3,.animation4,.animation5,.animation6,.animation7 {
+  top:50%;
+  position:absolute;
+  left: -50;
+  font-size:50px;
+  font-family: cocon;
+  position:fixed;
+}  
+.animation1{
+color:  #e06025;
+animation:move 2s infinite cubic-bezier(.2,.64,.81,.23);
+}
+.animation2{
+  color:  #d4743c;
+  animation:move 2s 150ms infinite cubic-bezier(.2,.64,.81,.23);
+  }
+  .animation3{
+    color:  #e6a881;
+    animation:move 2s 300ms infinite cubic-bezier(.2,.64,.81,.23);
+    }
+    .animation4{
+      color:  #eaf1f1;
+      animation:move 2s 450ms infinite cubic-bezier(.2,.64,.81,.23);
+      }
+      .animation5{
+        color:  #96e0a2;
+        animation:move 2s 600ms infinite cubic-bezier(.2,.64,.81,.23);
+        }
+        .animation6{
+          color:  #21af6d;
+          animation:move 2s 750ms infinite cubic-bezier(.2,.64,.81,.23);
+          }
+          .animation7{
+            color:  #07693b;
+            animation:move 2s 900ms infinite cubic-bezier(.2,.64,.81,.23);
+            }
+
+@keyframes move{
+  0%{left:100%;}
+  100%{left:0%;}
+}        
